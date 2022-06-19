@@ -1,0 +1,95 @@
+@import "reset.css";
+@import "topbar.css";
+@import "todo.css";
+
+.hidden {
+  display: none;
+}
+
+body {
+  height: 100vh;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
+
+.login-input {
+  height: 40px;
+  width: 250px;
+}
+
+svg {
+  height: 40px;
+  width: 40px;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#greeting-form {
+  display: flex;
+  align-items: center;
+}
+
+#greeting {
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 13px;
+}
+
+#logout-button {
+  height: 27px;
+  margin-left: 10px;
+}
+
+#todo-list {
+  margin-left: 30px;
+}
+
+#todo-form {
+  margin: 50px 0px 20px 10px;
+}
+#todo-form input:first-child {
+  height: 50px;
+  width: 400px;
+}
+
+::placeholder {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.418);
+  text-align: center;
+}
+
+#bible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+  margin: 20px 250px;
+  padding: 30px;
+  background-color: rgba(252, 253, 255, 0.685);
+  color: dimgrey;
+  font-size: 18px;
+}
+
+#bible span:first-child {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
